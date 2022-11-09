@@ -66,7 +66,12 @@ option = {
         diffuseIntensity: 0.2,
         specularIntensity: 3
       }
-    }
+    },
+    
+    viewControl:{
+      autoRotate: true,
+      autoRotateSpeed :20
+    },
   },
   series: [
     {
