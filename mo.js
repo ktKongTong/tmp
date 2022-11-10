@@ -41,13 +41,13 @@ option = {
   grid3D: {
     show: false,
     postEffect: {
-      enable: false,
-//       SSAO: {
-//         enable: true,
-//         radius: 4,
-//         quality: 'high',
-//         intensity: 1.5
-//       }
+      enable: true,
+      SSAO: {
+        enable: true,
+        radius: 4,
+        quality: 'high',
+        intensity: 1.5
+      }
     },
     temporalSuperSampling: {
       enable: true
